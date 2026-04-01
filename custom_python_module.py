@@ -52,3 +52,7 @@ def magic(word): #well no shit
         chars[i], chars[j] = chars[j], chars[i]
     
     return ''.join(chars)
+
+def maybe_odd(a):
+    print("Number is even" if a % 2 == 0 else "Odd")
+
